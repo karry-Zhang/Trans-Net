@@ -1,4 +1,1 @@
-# Trans-Net
-## Trans-Net: A deep transfer net based on spatio-temporal domain decomposition for solving partial differential equations
 
-We propose a deep transfer learning framework based on spatio-temporal domain decomposition to solve partial differential equations. Specifically, we divide the computational domain into multiple subdomains according to time, each of which is solved using an individual neural network. Then we transfer the trained network to the subsequent subdomain. This not only improves the subnetwork's prediction accuracy and convergence rate but also reduces the number of training points and network parameters required by the subnetwork. Finally, a series of classical numerical experiments including one-dimensional, two-dimensional, and three-dimensional cases are conducted to verify the effectiveness of the proposed method.
